@@ -46,7 +46,8 @@ class FactorialTest(unittest.TestCase):
 class LeapYearTest(unittest.TestCase):
     def test1(self):
         self.assertEqual(check_leap_year(2000), True)
-
+    def test2(self):
+        self.assertEqual(check_leap_year(1990), False)    
 
 
 
